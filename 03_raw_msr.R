@@ -4,7 +4,7 @@
 # Markov-switching regression on the raw freight-activity series.
 #
 # Input:
-#   data/Total_Tonkm.xlsx
+# Total_Tonkm.xlsx
 # =============================================================================
 
 
