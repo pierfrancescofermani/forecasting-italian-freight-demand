@@ -16,13 +16,13 @@ DATA
 
 The repository includes two Excel files:
 
-- data/Total_Tonkm.xlsx
+- Total_Tonkm.xlsx
   Main freight-activity dataset used throughout the analysis.
   Variables:
   - Year
   - Total
 
-- data/Tkm_Gdp.xlsx
+- Tkm_Gdp.xlsx
   Freight activity and GDP dataset used only for the GDP-augmented
   ARIMAX robustness benchmark.
   Variables:
@@ -34,8 +34,8 @@ The R scripts assume that the relevant Excel file has already been imported into
 
 library(readxl)
 
-Total_Tonkm <- read_excel("data/Total_Tonkm.xlsx")
-Tkm_Gdp <- read_excel("data/Tkm_Gdp.xlsx")
+Total_Tonkm <- read_excel("Total_Tonkm.xlsx")
+Tkm_Gdp <- read_excel("Tkm_Gdp.xlsx")
 
 Only Total_Tonkm is required for scripts 01–07 and 09.
 Tkm_Gdp is required for script 08.
