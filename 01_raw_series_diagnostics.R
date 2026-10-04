@@ -4,7 +4,7 @@
 # Replication script for raw-series diagnostics and figures.
 #
 # Input:
-#   data/Total_Tonkm.xlsx
+# Total_Tonkm.xlsx
 # =============================================================================
 
 # ---- Packages ---------------------------------------------------------------
